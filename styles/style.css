@@ -361,37 +361,3 @@ button[type="submit"]:hover {
     font-weight: lighter;
   }
 }
-/* ====== Tombol WhatsApp ====== */
-.wa-button {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color: #25D366;
-  color: white;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-  transition: background-color 0.3s ease;
-}
-
-.wa-button:hover {
-  background-color: #128C7E;
-}
-
-/* ====== Responsive Design ====== */
-@media (max-width: 600px) {
-  .one h1 {
-    font-size: 2rem;
-  }
-
-  .wish-text {
-    font-size: 14px;
-  }
-
-  .wa-button {
-    font-size: 14px;
-    padding: 10px 18px;
-  }
-}
